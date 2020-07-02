@@ -8,6 +8,6 @@ images:
 artifacts:
   objects:
     location: 'gs://prj_test_artifacts'
-    paths: [ '.rpmbuild/RPMS/noarch/*.rpms' ]
+    paths: [ 'foo.txt' ]
 
 timeout: 60m
