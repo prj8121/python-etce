@@ -14,5 +14,5 @@ RUN ./autogen.sh
 RUN ./configure
 RUN make rpm
 
-RUN echo 'fedora31 ran'
+RUN echo 'fedora31 complete'
 
