@@ -7,7 +7,7 @@ images:
 
 artifacts:
   objects:
-    location: 'gs://test_artifacts'
+    location: 'gs://prj_test_artifacts'
     paths: [ '*.rpms' ]
 
 timeout: 60m
