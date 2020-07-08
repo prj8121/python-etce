@@ -7,7 +7,7 @@ FROM fedora:31
 RUN dnf -y install libtool make automake autoconf rpm-build python3-setuptools git python3-devel
 
 WORKDIR /opt
-RUN git clone https://github.com/eschreiber/python-etce -b develop
+RUN git clone https://github.com/prj8121/python-etce -b develop
 
 WORKDIR python-etce
 RUN ./autogen.sh
